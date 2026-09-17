@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   run-github-actions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lts-26
     steps:
       - name: List Files
         run: |
